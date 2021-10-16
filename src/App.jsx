@@ -16,7 +16,6 @@ function App() {
     }
     const calculate = () => {
         const numbers = result.split(/\+|\-|\*|\//)
-        console.log(sum)
     }
 
     return (

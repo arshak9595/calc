@@ -15,11 +15,8 @@ function App() {
         setResult(result.slice(0, -1))
     }
     const calculate = () => {
-        try {
-            setResult(eval(result))
-        } catch {
-            setResult('Error')
-        }
+        const numbers = result.split(/\+|\-|\*|\//)
+        console.log(sum)
     }
 
     return (
